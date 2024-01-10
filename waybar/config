@@ -1,0 +1,26 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+
+    "include": ["$HOME/.config/waybar/modules.json"],
+
+    "modules-left": [
+        "hyprland/workspaces", 
+        "hyprland/window"
+    ],
+    "modules-center": [],
+    "modules-right": [
+        "network",
+        "custom/updates",
+        "custom/keyboard-layout",
+        "cpu",
+        "temperature",
+        "memory",
+        "idle_inhibitor",
+        "pulseaudio",
+        "clock",
+        "tray",
+        "custom/power"
+    ],
+}
